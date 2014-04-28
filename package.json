@@ -1,0 +1,44 @@
+{
+  "name": "grunt-closure-compiler",
+  "description": "A Grunt task for Closure Compiler.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/euskadi31/grunt-closure-compiler",
+  "author": {
+    "name": "Axel Etcheverry",
+    "email": "euskadi31@gmail.com",
+    "url": "https://twitter.com/euskadi31"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/euskadi31/grunt-closure-compiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/euskadi31/grunt-closure-compiler/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/euskadi31/grunt-closure-compiler/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "zlib-browserify": "~0.0.1",
+    "shelljs": "~0.2.6"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt": "~0.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "keywords": [
+    "google",
+    "closure",
+    "compiler"
+  ]
+}
