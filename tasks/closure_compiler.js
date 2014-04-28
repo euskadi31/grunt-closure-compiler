@@ -83,7 +83,7 @@ module.exports = function(grunt) {
         args = args.concat(java32flags());
 
         args.push('-Xmx2g');
-        args.push('-jar ./bin/compiler.jar');
+        args.push('-jar ' + __dirname + '/../bin/compiler.jar');
         args.push('--compilation_level ' + options.compilation_level);
         args.push('--source_map_format=' + options.source_map_format);
 
