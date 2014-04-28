@@ -1,5 +1,5 @@
 {
-  "name": "grunt-closure-compiler",
+  "name": "grunt-google-closure-compiler",
   "description": "A Grunt task for Closure Compiler.",
   "version": "0.1.0",
   "homepage": "https://github.com/euskadi31/grunt-closure-compiler",
